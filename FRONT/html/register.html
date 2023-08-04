@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <a href="#faceboock">
+            <h4>To registrer whit facebook</h4>
+        <img src="../img/facebook.png" alt="logo face" width="70px">
+        </a>
+            <h3>facebook</h3>
+        <a href="#google">
+            <h4>To registrer whit google</h4>
+        <img src="../img/google.png" alt="logo face" width="70px">
+        </a>
+            <h3>google</h3>
+
+        <br>
+        <label for="name">
+            <h3>Nombre</h3>
+            <input type="text" placeholder="Nombre" id="name">
+            <h3>Apellido</h3>
+            <input type="text" placeholder="Apellido" id="lastname">
+        </label>
+        <label for="datetime">
+            <h4>Fecha de nacimiento</h4>
+            <input type="date" name="datetime" id="datetime" value="1890-01-01" min="1890-01-01" max="2030-01-01">
+        </label>
+        <label for="sex">
+            <h5>Sexo</h5>
+            <select name="sexo" id="sex">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Elicoteloapache">Elicopteroapache</option>
+            </select>
+        </label>
+        <label for="mail">
+            <h4>Correo</h4>
+            <input type="text" placeholder="example@gmail.com">
+            <input type="password" placeholder="password" name="password" id="password" maxlength="12">
+        </label>
+        <br><br>
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
